@@ -69,7 +69,7 @@ export default {
 },
   
 env: {
-  BACKEND_URL: process.env.BACKEND_URL || "http://localhost:1337"
+  BACKEND_URL: process.env.API_URL || "http://localhost:1337"
 },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
