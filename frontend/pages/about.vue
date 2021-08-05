@@ -100,7 +100,6 @@
 </template>
 <script>
 import { mapGetters } from 'vuex'
-// import createContact from '~/apollo/mutations/contactForm'
 
 export default {
   data: () => ({
@@ -136,32 +135,5 @@ export default {
     ...mapGetters(['socialLinks']),
   },
 
-  methods: {
-    async onSubmit() {
-      // this.$refs.form.validate()
-      // this.submitting = true
-      // try {
-      //   await this.$apollo
-      //     .mutate({
-      //       mutation: createContact,
-      //       variables: {
-      //           name: this.name,
-      //           email: this.email,
-      //           phoneNumber: this.phoneNumber,
-      //           country: this.country,
-      //           message: this.message,
-      //         },
-      //     })
-      // } catch (e) {
-      //   this.error = e
-      // }
-      // this.$swal({
-      //   title: 'Please wait',
-      //   text: 'click ok',
-      //   icon: 'success',
-      //   button: 'Ok',
-      // })
-    },
-  },
 }
 </script>

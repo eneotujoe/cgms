@@ -46,7 +46,7 @@
             </v-col>
           </v-row>
           <v-card-text class="secondary">
-            <nuxt-link to="/admin/signup" class="text-decoration-none grey--text">
+            <nuxt-link to="/auth/signup" class="text-decoration-none grey--text">
               You don't have an account?
               <span class="light-blue--text text--lighten-2">
                 Create Account
@@ -62,7 +62,6 @@
 <script>
 import { validationMixin } from 'vuelidate'
 import { required, maxLength, email } from 'vuelidate/lib/validators'
-// import authenticateUser from '~/apollo/mutations/authenticateUser'
 
 export default {
   mixins: [validationMixin],
@@ -119,7 +118,6 @@ export default {
         this.$router.push('/')
       } catch (e) {
         this.error = e
-      // }
     }
   },
 }
