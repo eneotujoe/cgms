@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "attendances",
+  "info": {
+    "name": "Attendance",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "expectedAttendance": {
+      "type": "biginteger"
+    },
+    "remark": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "program": {
+      "type": "string"
+    },
+    "targetGroup": {
+      "type": "string"
+    },
+    "actualAttendance": {
+      "type": "biginteger"
+    },
+    "month": {
+      "type": "integer"
+    }
+  }
+}
