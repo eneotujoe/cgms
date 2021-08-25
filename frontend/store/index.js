@@ -3,7 +3,7 @@ export const state = () => ({
     navItems: [
       { title: 'Sermon', to: '/sermon', },
       { title: 'Giving', to: '/giving', },
-      { title: 'Event', to: '/event', },
+      { title: 'Event', to: '/events', },
       { title: 'About', to: '/about', },
       ],
     socialLinks: [
@@ -27,7 +27,7 @@ export const state = () => ({
           icon: 'mdi-linkedin',
           url: 'https://www.linkedin.com/company//',
         },
-      ],
+    ],
 })
 export const getters = {
     siteName: (state) => state.siteName,
