@@ -4,9 +4,9 @@
       <v-img>
         <v-row align="center" justify="center" class="mb-5">
           <v-col cols="11" class="text-center primary--text">
-            <h5 class="text-capitalize mb-4">LIVE TV</h5>
+            <h5 class="text-capitalize mb-4">WATCH LIVE TV</h5>
             <div class="video-responsive">
-              <iframe width="420" height="315" src="https://www.youtube.com/embed/wi24ldmCiOw" frameborder="1"></iframe>
+              <iframe width="420" height="315" src="https://www.youtube.com/embed/Fd7qMtfYyIU" frameborder="1"></iframe>
             </div>
           </v-col>
         </v-row>

@@ -1,7 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'static',
   head: {
     titleTemplate: '%s - CGMS',
@@ -19,27 +18,20 @@ export default {
     ]
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
   ],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxtjs/strapi'],
 
-  // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     treeShake: true,
@@ -67,12 +59,11 @@ export default {
       }
     }
 },
-  
-env: {
-  baseUrl: process.env.BASE_URL
-},
+  strapi: {
+    entities: ['attendances', 'events'],
+    url: 'https://cgms-backend.herokuapp.com/' || 'http://localhost:1337'
+  },
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
 }

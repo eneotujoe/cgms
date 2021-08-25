@@ -38,7 +38,7 @@
   },
   
     data: () => ({
-      url: process.env.baseUrl,
+      url: 'https://cgms-backend.herokuapp.com',
     }),
   }
 </script>

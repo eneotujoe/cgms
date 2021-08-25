@@ -10,7 +10,7 @@
 export default {
   async asyncData({ $strapi }) {
     return {
-      events: await $strapi.find("events")
+      events: await $strapi.$events.find()
     }
   }
 }

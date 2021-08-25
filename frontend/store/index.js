@@ -3,7 +3,7 @@ export const state = () => ({
     navItems: [
       { title: 'Sermon', to: '/sermon', },
       { title: 'Giving', to: '/giving', },
-      { title: 'Event', to: '/events', },
+      { title: 'Events', to: '/events', },
       { title: 'About', to: '/about', },
       ],
     socialLinks: [
