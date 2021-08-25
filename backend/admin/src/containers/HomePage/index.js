@@ -17,7 +17,7 @@ const HomePage = ({ global: { plugins }, history: { push } }) => {
 
   useEffect(() => {
     let fetchEvents = async () => {
-      let result = await axios.get("http://localhost:1337/events/3");
+      let result = await axios.get("https://cgms-backend.herokuapp.com/events");
       if (result.status == 200) {
         setEvent(result.data);
       } else {
@@ -43,7 +43,7 @@ const HomePage = ({ global: { plugins }, history: { push } }) => {
 
     if (attendanceResult.remark) {
       let res = await axios.post(
-        "http://localhost:1337/attendances",
+        "https://cgms-backend.herokuapp.com/attendances",
         {
           remark: attendanceResult.remark,
           category: attendanceResult.category,
