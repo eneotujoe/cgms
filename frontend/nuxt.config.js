@@ -69,7 +69,7 @@ export default {
 },
   
 env: {
-  baseUrl: process.env.BASE_URL || "http://localhost:1337"
+  baseUrl: process.env.BASE_URL
 },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
