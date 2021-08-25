@@ -35,26 +35,10 @@
       type: Array,
       default: null,
     },
-    // error: {
-    //   type: String,
-    //   default: null,
-    // },
-    // loading: {
-    //   type: Boolean,
-    //   default: null,
-    // },
   },
   
     data: () => ({
-      cards: [
-        { title: 'Summer Bootcamp', src: 'house.jpg', flex1: 10, flex2: 6 },
-        { title: 'Road Trips', src: 'road.jpg', flex1: 10, flex2: 6 },
-        { title: 'Coding Meeting', src: 'plane.jpg', flex1: 10, flex2: 6 },
-        { title: 'Fireside Chat', src: 'house.jpg', flex1: 10, flex2: 6 },
-        { title: 'Prayer Walk', src: 'road.jpg', flex1: 10, flex2: 6 },
-        { title: 'Marathon', src: 'plane.jpg', flex1: 10, flex2: 6 },
-      ],
-      url: process.env.BACKEND_URL,
+      url: process.env.baseUrl,
     }),
   }
 </script>
