@@ -7,7 +7,7 @@
       </div>
     </v-col>
     <v-col cols="10" md="6">
-      <v-form v-model="valid" @submit.prevent="onSubmit">          
+      <v-form v-model="valid" @submit.prevent="">          
           <v-row justify="center" align="center" class="mt-1">
             <v-col cols="10">
               <v-row>
