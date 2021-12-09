@@ -6,7 +6,7 @@
           <v-col cols="11" class="text-center primary--text">
             <h5 class="text-capitalize mb-4">WATCH LIVE TV</h5>
             <div class="video-responsive">
-              <iframe width="420" height="315" src="https://www.youtube.com/embed/Fd7qMtfYyIU" frameborder="1"></iframe>
+              <iframe width="420" height="315" src="https://www.youtube.com/embed/live_stream?channel=UCFe2dBIlLkmxLthMaFxXIyQ" frameborder="1"></iframe>
             </div>
           </v-col>
         </v-row>
